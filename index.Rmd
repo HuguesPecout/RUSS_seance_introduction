@@ -1,0 +1,102 @@
+---
+title: <img src="figure/RUSS.png" width="1000"/>
+author: <br><h2 class="place">Séance du 4 décembre 2020 <br><br> <h2 class="name">Introduction à R pour la mise en œuvre <br> de chaînes de traitements reproductibles</h2>
+date: <br><h3 class="mail" style="color:white;">hugues.pecout@cnrs.fr  &  ronan.ysebaert@cnrs.fr</h3><br><img src="figure/cnrs.png" width="80" style="float:left;margin-left:60px;margin-right:150px;"/><img src="figure/cist-logo-bleu_sur_blanc.png" width="80" style="float:left;"/><img src="figure/riate.png" style="float:right;margin-left:110px;margin-right:60px;margin-top:55px;" width="120"/><img src="figure/UP.png" style="float:right;margin-top:35px;" width="150"/>
+output: 
+  revealjs::revealjs_presentation:
+    self_contained: FALSE
+    reveal_plugins: ["notes","zoom","menu"]
+    theme: "black"
+    highlight: "zenburn"
+    css: styles.css
+    incremental: TRUE
+    center: TRUE	
+    showNotes: FALSE
+    reveal_options:
+      help: true
+      controls: TRUE
+      progress: TRUE
+      controlsTutorial: TRUE
+      controlsLayout: "edges"
+      controlsBackArrows: "visible"
+      slideNumber: TRUE
+      hash: true
+      keyboard: true
+      overview: true
+      touch: true
+      navigationMode: "linear"
+      embedded: false
+      mouseWheel: true
+      hideInactiveCursor: true
+      hideAddressBar: true
+      previewLinks: false
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+options("scipen" = 10)
+
+```
+
+
+
+## Retrouver les supports ?
+
+<br>
+
+
+<div class="medpcenter"> https://huguespecout.github.io/RUSS_seance_introduction</div>
+
+<img src="figure/Rzine.png" width="240"/>
+
+Et sur [Rzine.fr](http://rzine.fr){target="_blank"} !
+
+
+## Plan de séance
+
+
+<ol class="plan" style="margin-top:35px;">
+
+<li> Contextualisation et présentation de R et de Rstudio - ([lien](https://huguespecout.github.io/R_presentation_FR/#/){target="_blank"})</li>
+<div class="litito">
+>- R vs logiciels d'analyse statistique
+>- R vs Python
+>- R, atouts et faiblesses
+>- Rstudio ?
+>- Installation
+</div>
+
+<li> Introduction au langage et à  l'IDE Rstudio - ([lien](https://huguespecout.github.io/Intro_R_Rstudio_FR/#/){target="_blank"})</li>
+<div class="litito">
+>- Une super calculatrice
+>- R et objets
+>- R base et packages
+>- Packages populaires
+>- Les atouts de l'IDE Rstudio
+>- Aide et documentation
+</div>
+
+<li> Exemple d'application : vers une chaine de traitement reproductible - ([lien](https://rysebaert.gitpages.huma-num.fr/intro_r_use_case/){target="_blank"})</li>
+<div class="litito">
+>- Avant propos et objectifs de séance
+>- Mise en oeuvre d'une chaine de traitement
+>- Transposer son analyse
+>- Documenter son code
+>- Reproduisez l'analyse ! 
+
+</div>
+
+</ol>
+
+
+## Merci de votre attention 
+
+
+
+<img src="figure/question.jpg" width="900"/>
+
